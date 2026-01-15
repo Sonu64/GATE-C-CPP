@@ -1,0 +1,66 @@
+# --- Compiled Objects and Executables ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dll
+*.dylib
+
+# --- Build Directories ---
+# Common folders for CMake, Make, and IDEs
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+build/
+.cache/
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# --- Integrated Development Environments (IDEs) ---
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# --- Language & Tool Specifics ---
+# Precompiled headers
+*.gch
+*.pch
+
+# Static Libraries
+*.a
+*.lib
+
+# Dependency directories (e.g., vcpkg or conan)
+vcpkg_installed/
+conan.lock
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
