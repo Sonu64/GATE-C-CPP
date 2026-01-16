@@ -55,7 +55,7 @@ void printTable() {
 }
 
 // Function to Add Person into the Hash Table
-bool addPerson(person* p) {
+bool insertToHashTable(person* p) {
     if (p==NULL) return false;
     int index = hash(p->name);
     // Add person at index, if already Filled, increment by 1 position and repeat the steps
@@ -136,16 +136,16 @@ int main() {
 
     // Random placement
     person t5 = {.name = "Rana", .age = 28};
-    addPerson(&sonu);
-    addPerson(&shanu);
-    addPerson(&ma);
-    addPerson(&bunu);
-    addPerson(&t1);
-    addPerson(&t2);
-    addPerson(&t3);
-    addPerson(&t4);
-    addPerson(&t5);
-    addPerson(&t6);
+    insertToHashTable(&sonu);
+    insertToHashTable(&shanu);
+    insertToHashTable(&ma);
+    insertToHashTable(&bunu);
+    insertToHashTable(&t1);
+    insertToHashTable(&t2);
+    insertToHashTable(&t3);
+    insertToHashTable(&t4);
+    insertToHashTable(&t5);
+    insertToHashTable(&t6);
 
     printTable();
 
